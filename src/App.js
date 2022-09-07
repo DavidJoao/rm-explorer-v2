@@ -18,7 +18,7 @@ function App() {
         })
 
   return (
-    <div style={{backgroundColor:"black", height:'auto', width:'100%', display:'flex', flexDirection:"column", justifyContent:"center" }}>
+    <div className='App' style={{backgroundColor:"black", height:'auto', width:'100%', display:'flex', flexDirection:"column", justifyContent:"center" }}>
       <FirstPage charList={charList}/>
       <SecondPage />
     </div>
