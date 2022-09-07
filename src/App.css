@@ -4,18 +4,3 @@
   text-align: center;
   font-family: 'Indie Flower', cursive;
 }
-
-@keyframes slide-fwd-center {
-  0% {
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-  }
-  100% {
-    -webkit-transform: translateZ(160px);
-            transform: translateZ(160px);
-  }
-}
-
-.card:hover{
-  background-color: red;
-}
