@@ -26,6 +26,9 @@ function SecondPage(){
     if(count < 2){
         setCount(2)
     }
+    if(count > 41){
+        setCount(41)
+    }
 
     return(
         <div style={{height:"auto", width:'100%', padding:'3%', display:"flex", flexDirection:'column', alignItems:'center'}}>
