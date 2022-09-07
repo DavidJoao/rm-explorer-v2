@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import FirstPage from './components/FirstPage';
+import SecondPage from './components/SecondPage';
 
 function App() {
     
@@ -17,8 +18,9 @@ function App() {
         })
 
   return (
-    <div style={{backgroundColor:"black", height:'100vh', width:'100%', display:'flex', justifyContent:"center", paddingTop:'3%'}}>
+    <div style={{backgroundColor:"black", height:'auto', width:'100%', display:'flex', flexDirection:"column", justifyContent:"center" }}>
       <FirstPage charList={charList}/>
+      <SecondPage />
     </div>
   );
 }
